@@ -1,5 +1,5 @@
 node_modules
- .env
+.env
 backend/.env
 dashboard/.env
 frontend/.env
