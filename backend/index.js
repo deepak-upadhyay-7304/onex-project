@@ -29,7 +29,7 @@ const razorpay = new Razorpay({
 
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "http://localhost:3003"] , // Ensure this matches your frontend URL
+  origin: ["https://onex-project.onrender.com", "https://onex-dashboard.onrender.com"] , // Ensure this matches your frontend URL
   credentials: true,  // Allow cookies and authorization headers
   methods: "GET,POST,PUT,DELETE",  // Allow specific HTTP methods
   allowedHeaders: "Content-Type,Authorization"  // Allow these headers
