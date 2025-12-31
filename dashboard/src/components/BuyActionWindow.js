@@ -145,7 +145,7 @@ const BuyActionWindow = ({ uid }) => {
   const { closeBuyWindow } = useContext(GeneralContext);
 
   const handleBuyClick = () => {
-    axios.post("https://onex-backend.onrender.com/newOrder", {
+    axios.post("https://onex-dashboard.onrender.com/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
@@ -157,7 +157,7 @@ const BuyActionWindow = ({ uid }) => {
   };
 
   const handleSendEmail =() => {
-    axios.post("https://onex-backend.onrender.com/send-email",{
+    axios.post("https://onex-dashboard.onrender.com/send-email",{
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
