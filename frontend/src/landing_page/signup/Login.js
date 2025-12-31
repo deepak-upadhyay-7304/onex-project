@@ -62,7 +62,7 @@ const Login = () => {
         handleSuccess(message);
         setTimeout(() => {
           
-          window.location.href = `http://localhost:3003/dashboard?uid=${userId}`; // Redirects to dashboard app
+          window.location.href = `https://onex-dashboard.onrender.com?uid=${userId}`; // Redirects to dashboard app
           //navigate("/next")
         },3000);
       } 
