@@ -15,7 +15,7 @@ const Home = () => {
         navigate("/login");
       }
       const { data } = await axios.get(
-        "http://localhost:5000/auth/",
+        "https://onex-backend.onrender.com/auth/",
         {},
         { withCredentials: true }
       );

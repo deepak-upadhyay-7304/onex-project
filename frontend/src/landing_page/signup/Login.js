@@ -34,7 +34,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        `${process.env.REACT_APP_BASE_URL}/auth/login`,
+        "https://onex-backend.onrender.com/auth/login",
         {
           ...inputValue,
         },
